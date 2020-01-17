@@ -64,6 +64,7 @@ internal class Program
     {
         try
         {
+            Console.WriteLine("请输入pid：");
             int pid = int.Parse(Console.ReadLine());
 
             var sb = new StringBuilder();
